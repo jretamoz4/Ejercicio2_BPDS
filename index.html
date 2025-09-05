@@ -4,76 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias del Día</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f0f2f5;
-            color: #1c1e21;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 750px;
-            width: 100%;
-            margin: 20px auto;
-            background-color: #ffffff;
-            padding: 30px 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        .news-article {
-            border-bottom: 1px solid #dddfe2;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-        }
-        .news-article:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-        }
-        h1 {
-            font-size: 2.2rem;
-            color: #000;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .article-title {
-            font-size: 1.7rem;
-            margin-top: 0;
-            margin-bottom: 15px;
-            line-height: 1.2;
-        }
-        .article-image {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-        .article-date {
-            font-size: 0.9rem;
-            color: #606770;
-            margin-bottom: 15px;
-        }
-        .article-summary {
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-        .article-source-link {
-            display: inline-block;
-            margin-top: 15px;
-            font-weight: bold;
-            color: #1877f2;
-            text-decoration: none;
-            transition: text-decoration 0.2s;
-        }
-        .article-source-link:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
 <body>
 
     <div class="container">
-        <header>
+        <header class="page-header">
             <h1>Última Hora</h1>
         </header>
 
@@ -120,90 +58,7 @@
                 <a class="article-source-link" href="https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/deforestacion-causa-la-muerte-de-28-mil-personas-al-ano-segun-estudio/" target="_blank" rel="noopener noreferrer">Leer la noticia completa en La Silla Vacía &rarr;</a>
             </article>
 
-            <article class="news-article">
-                <h2 class="article-title">Camargo o Balanta: la previa de una elección apretada a la Corte Constitucional</h2>
-
-                <img class="article-image" src="https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/09/Eleccioncorte2026.jpg?resize=780%2C585&ssl=1" alt="Augusto Ibáñez (ponente), Cielo Rusinque (ternada) y Vladimir Fernández (magistrado).">
-
-                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
-
-                <p class="article-summary">
-                    El Senado se prepara para una de las elecciones más reñidas para un puesto en la Corte Constitucional, con una contienda cabeza a cabeza entre los candidatos Camargo y Balanta. La decisión final, que se tomará en las próximas horas, definirá una silla clave en el alto tribunal y podría tener implicaciones significativas en el equilibrio de poderes.
-                </p>
-
-                <a class="article-source-link" href="https://www.lasillavacia.com/silla-nacional/camargo-o-balanta-la-previa-de-una-eleccion-apretada-a-la-corte-constitucional/" target="_blank" rel="noopener noreferrer">Leer la noticia completa en La Silla Vacía &rarr;</a>
-            </article>
-
-            <article class="news-article">
-                <h2 class="article-title">La Agencia de Tierras pone presupuesto para impulsar la consulta campesina</h2>
-
-                <img class="article-image" src="https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/09/Felipe-Harman-en-la-Asamblea-Campesina.jpg?resize=780%2C585&ssl=1" alt="Felipe Harman, director de la Agencia Nacional de Tierras.">
-
-                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
-
-                <p class="article-summary">
-                    La Agencia Nacional de Tierras (ANT) ha destinado una partida presupuestaria significativa para fortalecer y agilizar los procesos de consulta previa con las comunidades campesinas. Esta medida busca impulsar la reforma agraria y resolver conflictos territoriales, garantizando la participación activa del campesinado en las decisiones que afectan sus tierras y su futuro.
-                </p>
-
-                <a class="article-source-link" href="https://www.lasillavacia.com/silla-nacional/la-agencia-de-tierras-pone-presupuesto-para-impulsar-la-consulta-campesina/" target="_blank" rel="noopener noreferrer">Leer la noticia completa en La Silla Vacía &rarr;</a>
-            </article>
-
-            <article class="news-article">
-                <h2 class="article-title">Accidente nuclear en Japón: 14 años después, las víctimas buscan respuestas ☢️</h2>
-                
-                <img class="article-image" src="https://www.elespectador.com/resizer/v2/7P3DZQCELFRXTVCLYP7LEQTS54.jpg?auth=ef4b5a3533de7e8b2fa5f70e1a53929aef735c82f4490b55794e62b4325751ac&width=920&height=613&smart=true&quality=60" alt="Vista aérea de una planta nuclear afectada.">
-
-                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
-
-                <p class="article-summary">
-                    A catorce años del desastre nuclear de Fukushima, miles de víctimas y evacuados continúan luchando por justicia y respuestas claras sobre las responsabilidades del accidente. A pesar del tiempo transcurrido, los afectados enfrentan secuelas de salud y la pérdida de sus hogares, manteniendo viva una batalla legal en busca de una compensación adecuada por parte del gobierno y la empresa operadora.
-                </p>
-
-                <a class="article-source-link" href="https://www.elespectador.com/mundo/mas-paises/accidente-nuclear-en-japon-14-anos-despues-las-victimas-buscan-respuestas/" target="_blank" rel="noopener noreferrer">Leer la noticia completa en El Espectador &rarr;</a>
-            </article>
-
-            <article class="news-article">
-                <h2 class="article-title">Seguimos comprando más de lo que vendemos: esto dice Bancolombia 📉</h2>
-
-                <img class="article-image" src="https://www.elespectador.com/resizer/v2/D6HL7XDRLBHJBFMTMRE55W5CUU.png?auth=e28a986c0fbba0a31163e2c6820d736bca32cae975d5b1ebccb227f52f9dd0ff&width=920&height=613&smart=true&quality=60" alt="Contenedores de carga en un puerto marítimo, representando importaciones y exportaciones.">
-
-                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
-
-                <p class="article-summary">
-                    Un informe reciente de Bancolombia revela que el déficit de la balanza comercial de Colombia persiste, indicando que el país continúa importando más bienes de los que exporta. El análisis sugiere que, aunque ha habido una moderación, la brecha comercial sigue siendo un desafío clave para la economía nacional en el corto y mediano plazo.
-                </p>
-
-                <a class="article-source-link" href="https://www.elespectador.com/economia/macroeconomia/seguimos-comprando-mas-de-lo-que-vendemos-esto-dice-bancolombia-noticias-hoy-noticias-colombia/" target="_blank" rel="noopener noreferrer">Leer la noticia completa en El Espectador &rarr;</a>
-            </article>
-            
-            <article class="news-article">
-                <h2 class="article-title">Ministerio de Salud cambió el mapa del sistema de salud en Colombia 🏥</h2>
-                
-                <img class="article-image" src="https://www.elespectador.com/resizer/v2/KWHMFQSDNRF4PKGZDMZB7S7YQA.JPG?auth=0c6b5afaa58f3819b2fee3b04103b1b6ff041c334d954518623881f530fe8f9d&width=920&height=613&smart=true&quality=60" alt="Mapa de Colombia con divisiones del sistema de salud.">
-
-                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
-
-                <p class="article-summary">
-                    El Ministerio de Salud ha emitido una nueva resolución que reorganiza las Redes Integrales e Integradas de Servicios de Salud (RIISS) en el país. Este cambio redefine la estructura territorial y funcional del sistema, buscando mejorar la coordinación entre prestadores de servicios y optimizar el acceso a la atención médica para los ciudadanos en diferentes regiones de Colombia.
-                </p>
-
-                <a class="article-source-link" href="https://www.elespectador.com/salud/ministerio-de-salud-cambio-el-mapa-del-sistema-de-salud-en-colombia/" target="_blank" rel="noopener noreferrer">Leer la noticia completa en El Espectador &rarr;</a>
-            </article>
-
-            <article class="news-article">
-                <h2 class="article-title">Reforma tributaria: qué es cierto y qué no sobre los nuevos impuestos que vendrían en el 2026</h2>
-                
-                <img class="article-image" src="https://imagenes2.eltiempo.com/files/image_1200_535/files/fp/uploads/2025/09/01/68b625cc40ae2.r_d.420-368.png" alt="Imagen conceptual sobre impuestos y economía con una calculadora y monedas.">
-
-                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
-
-                <p class="article-summary">
-                    El gobierno ha presentado una nueva propuesta de reforma tributaria para el año 2026, generando un amplio debate público. Este artículo aclara los puntos clave, desmintiendo mitos y explicando cuáles son los impuestos que realmente podrían afectar a los ciudadanos y a las empresas en Colombia.
-                </p>
-
-                <a class="article-source-link" href="https://www.eltiempo.com/economia/sectores/reforma-tributaria-que-es-cierto-y-que-no-sobre-los-nuevos-impuestos-que-vendrian-en-el-2026-3487526" target="_blank" rel="noopener noreferrer">Leer la noticia completa en El Tiempo &rarr;</a>
-            </article>
-        </main>
+             </main>
     </div>
 
 </body>
