@@ -1,0 +1,106 @@
+/* --- Estilos Globales y Tipografía --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    margin: 0;
+    padding: 2rem 1rem; /* Espaciado superior/inferior y lateral */
+}
+
+/* --- Contenedor Principal --- */
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+/* --- Encabezado --- */
+.page-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 1.5rem;
+}
+
+/* --- Estructura de cada Noticia --- */
+.news-article {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.news-article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* --- Contenido de la Noticia --- */
+.article-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1c1e21;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-decoration: none; /* En caso de que se quiera hacer un link */
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.article-date {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.article-summary {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.article-source-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.article-source-link:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+/* --- Adaptación para pantallas pequeñas --- */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem 0.5rem;
+    }
+    .container {
+        padding: 1.5rem;
+    }
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    .article-title {
+        font-size: 1.5rem;
+    }
+}
