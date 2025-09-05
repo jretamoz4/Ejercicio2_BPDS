@@ -11,14 +11,11 @@
             color: #1c1e21;
             margin: 0;
             padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
         }
         .container {
             max-width: 750px;
             width: 100%;
+            margin: 20px auto; /* Añadido para centrar verticalmente si hay mucho espacio */
             background-color: #ffffff;
             padding: 30px 40px;
             border-radius: 12px;
@@ -27,6 +24,11 @@
         .news-article {
             border-bottom: 1px solid #dddfe2;
             padding-bottom: 20px;
+            margin-bottom: 20px; /* Espacio entre noticias */
+        }
+        .news-article:last-child {
+            border-bottom: none; /* Elimina la línea del último artículo */
+            margin-bottom: 0;
         }
         h1 {
             font-size: 2.2rem;
@@ -77,14 +79,26 @@
 
         <main>
             <article class="news-article">
-                <h2 class="article-title">¡Tarea cumplida! Colombia clasificó al Mundial 2026 con una goleada a Bolivia 🇨🇴</h2>
+                <h2 class="article-title">Reforma tributaria: qué es cierto y qué no sobre los nuevos impuestos que vendrían en el 2026</h2>
                 
-                
-
-                <img class="article-image" src="https://imagenes2.eltiempo.com/files/image_600_455/uploads/2025/09/04/68ba371346111.jpeg" alt="Jugadores de la Selección Colombia celebrando un gol contra Bolivia.">
+                <img class="article-image" src="https://imagenes2.eltiempo.com/files/image_1200_535/files/fp/uploads/2025/09/01/68b625cc40ae2.r_d.420-368.png" alt="Imagen conceptual sobre impuestos y economía con una calculadora y monedas.">
 
                 <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
 
+                <p class="article-summary">
+                    El gobierno ha presentado una nueva propuesta de reforma tributaria para el año 2026, generando un amplio debate público. Este artículo aclara los puntos clave, desmintiendo mitos y explicando cuáles son los impuestos que realmente podrían afectar a los ciudadanos y a las empresas en Colombia.
+                </p>
+
+                <a class="article-source-link" href="https://www.eltiempo.com/economia/sectores/reforma-tributaria-que-es-cierto-y-que-no-sobre-los-nuevos-impuestos-que-vendrian-en-el-2026-3487526" target="_blank" rel="noopener noreferrer">Leer la noticia completa en El Tiempo &rarr;</a>
+            </article>
+
+            <article class="news-article">
+                <h2 class="article-title">¡Tarea cumplida! Colombia clasificó al Mundial 2026 con una goleada a Bolivia 🇨🇴</h2>
+                
+                <img class="article-image" src="https://imagenes2.eltiempo.com/files/image_600_455/uploads/2025/09/04/68ba371346111.jpeg" alt="Jugadores de la Selección Colombia celebrando un gol contra Bolivia.">
+
+                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
+                
                 <p class="article-summary">
                     La Selección Colombia selló su clasificación a la Copa del Mundo de 2026 tras una contundente victoria 3-0 sobre Bolivia en el estadio Metropolitano de Barranquilla. A pesar de algunos momentos de sufrimiento, el equipo nacional demostró su superioridad y aseguró su cupo en el torneo orbital, desatando la alegría en todo el país.
                 </p>
