@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noticias del Día</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 750px;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .news-article {
+            border-bottom: 1px solid #dddfe2;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #000;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .article-title {
+            font-size: 1.7rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        .article-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .article-date {
+            font-size: 0.9rem;
+            color: #606770;
+            margin-bottom: 15px;
+        }
+        .article-summary {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .article-source-link {
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #1877f2;
+            text-decoration: none;
+            transition: text-decoration 0.2s;
+        }
+        .article-source-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="container">
+        <header>
+            <h1>Última Hora</h1>
+        </header>
+
+        <main>
+            <article class="news-article">
+                <h2 class="article-title">¡Tarea cumplida! Colombia clasificó al Mundial 2026 con una goleada a Bolivia 🇨🇴</h2>
+                
+                
+
+                <img class="article-image" src="https://imagenes2.eltiempo.com/files/image_600_455/uploads/2025/09/04/68ba371346111.jpeg" alt="Jugadores de la Selección Colombia celebrando un gol contra Bolivia.">
+
+                <p class="article-date">Publicado el: 4 de septiembre de 2025</p>
+
+                <p class="article-summary">
+                    La Selección Colombia selló su clasificación a la Copa del Mundo de 2026 tras una contundente victoria 3-0 sobre Bolivia en el estadio Metropolitano de Barranquilla. A pesar de algunos momentos de sufrimiento, el equipo nacional demostró su superioridad y aseguró su cupo en el torneo orbital, desatando la alegría en todo el país.
+                </p>
+
+                <a class="article-source-link" href="https://www.eltiempo.com/deportes/futbol-internacional/tarea-cumplida-colombia-clasifico-al-mundial-2026-con-una-goleada-a-bolivia-en-la-que-tuvo-que-sufrir-por-momentos-3487973" target="_blank" rel="noopener noreferrer">Leer la noticia completa en El Tiempo &rarr;</a>
+            </article>
+        </main>
+    </div>
+
 </body>
 </html>
